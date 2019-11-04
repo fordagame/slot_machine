@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{3D179802-799A-44ED-8CA9-450FF61EF2EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlotMachine", "SlotMachine", "{08876AC8-BAEA-4319-9125-7C1C0513C4FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B8EAB0D9-D67B-4654-949F-21226500D971}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casino.App", "src\App\Casino.App\Casino.App.csproj", "{F33611E3-42B7-405E-BD28-EDD0297DA427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casino.SlotMachine", "src\SlotMachineGame\Casino.SlotMachine\Casino.SlotMachine.csproj", "{F226B33B-D5FC-45CC-B56B-58CC2135ECF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casino.Interfaces", "src\Core\Casino.Interfaces\Casino.Interfaces.csproj", "{2384CB10-56D0-4C28-ACBE-8D84642D369D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino.Core", "src\Core\Casino.Core\Casino.Core.csproj", "{1C976769-299C-460E-A887-51F23C4E7F46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F33611E3-42B7-405E-BD28-EDD0297DA427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33611E3-42B7-405E-BD28-EDD0297DA427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33611E3-42B7-405E-BD28-EDD0297DA427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33611E3-42B7-405E-BD28-EDD0297DA427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F226B33B-D5FC-45CC-B56B-58CC2135ECF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F226B33B-D5FC-45CC-B56B-58CC2135ECF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F226B33B-D5FC-45CC-B56B-58CC2135ECF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F226B33B-D5FC-45CC-B56B-58CC2135ECF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2384CB10-56D0-4C28-ACBE-8D84642D369D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2384CB10-56D0-4C28-ACBE-8D84642D369D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2384CB10-56D0-4C28-ACBE-8D84642D369D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2384CB10-56D0-4C28-ACBE-8D84642D369D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C976769-299C-460E-A887-51F23C4E7F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C976769-299C-460E-A887-51F23C4E7F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C976769-299C-460E-A887-51F23C4E7F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C976769-299C-460E-A887-51F23C4E7F46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08876AC8-BAEA-4319-9125-7C1C0513C4FB} = {3D179802-799A-44ED-8CA9-450FF61EF2EB}
+		{B8EAB0D9-D67B-4654-949F-21226500D971} = {3D179802-799A-44ED-8CA9-450FF61EF2EB}
+		{F226B33B-D5FC-45CC-B56B-58CC2135ECF3} = {08876AC8-BAEA-4319-9125-7C1C0513C4FB}
+		{2384CB10-56D0-4C28-ACBE-8D84642D369D} = {B8EAB0D9-D67B-4654-949F-21226500D971}
+		{1C976769-299C-460E-A887-51F23C4E7F46} = {B8EAB0D9-D67B-4654-949F-21226500D971}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC519F88-C0D7-4A87-980C-B424F7374F0C}
+	EndGlobalSection
+EndGlobal
